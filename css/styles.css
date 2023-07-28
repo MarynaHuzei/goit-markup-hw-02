@@ -17,7 +17,7 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   background-color: var(--background-color);
 }
 .logo-color {
@@ -41,7 +41,6 @@ body {
   color: var(--primary-color);
 }
 .menu-link {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -54,7 +53,6 @@ body {
   color: var(--hover-color);
 }
 .list-address-link {
-  font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
   font-size: 16px;
   font-style: normal;
@@ -67,7 +65,6 @@ body {
   color: var(--hover-color);
 }
 .button-filters {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -82,7 +79,6 @@ body {
   background-color: var(--hover-color);
 }
 .project-cards-title {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -91,10 +87,81 @@ body {
   color: var(--primary-color);
 }
 .project-cards-text {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--secondary-color);
+}
+.hero {
+  background-color: var(--primary-color);
+}
+.tittle {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.12px;
+  color: var(--background-color);
+  text-align: center;
+}
+.cta-button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.cta-button:hover,
+.cta-button:focus {
+  color: var(--background-color);
+  background-color: var(--hover-color);
+}
+.benefits-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--primary-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.our-job,
+.our-team {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+.worker-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--primary-color);
+}
+.work-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.page-footer {
+  background-color: var(--primary-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--background-color);
+}
+.logo-footer {
+  color: var(--background-color);
 }
