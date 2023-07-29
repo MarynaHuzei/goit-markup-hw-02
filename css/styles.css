@@ -4,7 +4,7 @@
   --accent-color: #4d5ae5;
   --hover-color: #404bbf;
   --background-color: #ffffff;
-  --background-items: #F4F4FD;
+  --background-items: #f4f4fd;
 }
 .list {
   list-style-type: none;
@@ -66,7 +66,7 @@ body {
 }
 .list-address-link:hover,
 .list-address-link:focus {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
 .button-filters {
   font-family: "Roboto", sans-serif;
@@ -149,7 +149,7 @@ body {
 .team {
   background-color: var(--background-items);
 }
-.team-list {
+.team-member {
   background-color: var(--background-color);
 }
 .worker-name {
@@ -175,7 +175,8 @@ body {
   color: var(--background-items);
 }
 .logo-footer {
-  color: var(--accent-color)
+  font-family: "Raleway", sans-serif;
+  color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -184,5 +185,6 @@ body {
   text-transform: uppercase;
 }
 .logo-color-footer {
+  font-family: "Raleway", sans-serif;
   color: var(--background-items);
 }
